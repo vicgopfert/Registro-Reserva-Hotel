@@ -1,0 +1,75 @@
+RELATÓRIO DE RESERVAS DE HOTEL
+====================================
+
+------------------------------------------
+ID da Reserva: 1
+Hóspede: João Silva
+CPF: 12345678900
+Quarto Nº: 101
+Tipo de Quarto: Comum
+Data de Entrada: 01/05/2025
+Data de Saída: 05/05/2025
+Check-in realizado? Sim
+Check-out realizado? Sim
+------------------------------------------
+ID da Reserva: 2
+Hóspede: Maria Souza
+CPF: 98765432100
+Quarto Nº: 102
+Tipo de Quarto: Comum
+Data de Entrada: 02/05/2025
+Data de Saída: 04/05/2025
+Check-in realizado? Sim
+Check-out realizado? Não
+------------------------------------------
+ID da Reserva: 3
+Hóspede: Lucas Carvalho
+CPF: 11122233344
+Quarto Nº: 103
+Tipo de Quarto: Comum
+Data de Entrada: 03/05/2025
+Data de Saída: 06/05/2025
+Check-in realizado? Não
+Check-out realizado? Não
+------------------------------------------
+ID da Reserva: 4
+Hóspede: Ana Beatriz
+CPF: 22233344455
+Quarto Nº: 201
+Tipo de Quarto: Plus
+Data de Entrada: 01/05/2025
+Data de Saída: 03/05/2025
+Check-in realizado? Sim
+Check-out realizado? Sim
+------------------------------------------
+ID da Reserva: 5
+Hóspede: Carlos Eduardo
+CPF: 33344455566
+Quarto Nº: 202
+Tipo de Quarto: Plus
+Data de Entrada: 05/05/2025
+Data de Saída: 10/05/2025
+Check-in realizado? Não
+Check-out realizado? Não
+------------------------------------------
+ID da Reserva: 6
+Hóspede: Fernanda Lima
+CPF: 44455566677
+Quarto Nº: 301
+Tipo de Quarto: Premium
+Data de Entrada: 06/05/2025
+Data de Saída: 09/05/2025
+Check-in realizado? Sim
+Check-out realizado? Não
+------------------------------------------
+ID da Reserva: 7
+Hóspede: Paulo Oliveira
+CPF: 55566677788
+Quarto Nº: 302
+Tipo de Quarto: Premium
+Data de Entrada: 07/05/2025
+Data de Saída: 10/05/2025
+Check-in realizado? Não
+Check-out realizado? Não
+
+Relatório realizado por Victor Gopfert.
