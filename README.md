@@ -121,7 +121,7 @@ git clone https://github.com/vicgopfert/Registro-Reserva-Hotel.git
 
 2. Importe o projeto em uma IDE com suporte a Maven (Eclipse, IntelliJ, VSCode).
 
-3. Compile e execute a classe `SistemaReservaController.java` para interagir com o sistema.
+3. Compile todos os arquivos e execute a classe `Main.java` para interagir com o sistema.
 
 ---
 
