@@ -1,6 +1,7 @@
 package VictorGopfert.Model;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class Reserva implements Reservavel {
     private static int proximoId = 1; // contador estático
@@ -49,6 +50,14 @@ public class Reserva implements Reservavel {
 
     public boolean isCheckoutRealizado() {
         return checkoutRealizado;
+    }
+
+    public long getQuantidadeDias() {
+        return ChronoUnit.DAYS.between(dataEntrada, dataSaida);
+    }
+
+    public double getTotalAPagar() {
+        return getQuantidadeDias() * quarto.getPrecoNoite();
     }
 
     @Override
