@@ -77,24 +77,31 @@ Este sistema foi desenvolvido com os principais pilares da Programação Orienta
 ## 📄 Exemplo de Saída do Relatório
 
 ```
-RELATÓRIO DE RESERVAS
-
-Hóspede: Ana Souza
-CPF: 123.456.789-00
-Telefone: (21) 98765-4321
-Tipo de Quarto: Premium
-Número do Quarto: 301
-Dias Reservados: 3
-Valor Total: R$ 900.00
-
-------------------------------
-Hóspede: Carlos Lima
-CPF: 987.654.321-00
-Telefone: (21) 91234-5678
+RELATÓRIO DE RESERVAS DE HOTEL
+------------------------------------------
+ID da Reserva: 1
+Hóspede: João Silva
+CPF: 12345678900
+Quarto Nº: 101
 Tipo de Quarto: Comum
-Número do Quarto: 101
-Dias Reservados: 2
-Valor Total: R$ 200.00
+Data de Entrada: 01/05/2025
+Data de Saída: 05/05/2025
+Total de Dias Reservados: 4
+Total a Pagar: R$600,00
+Check-in realizado? Sim
+Check-out realizado? Sim
+------------------------------------------
+ID da Reserva: 2
+Hóspede: Maria Souza
+CPF: 98765432100
+Quarto Nº: 102
+Tipo de Quarto: Comum
+Data de Entrada: 02/05/2025
+Data de Saída: 04/05/2025
+Total de Dias Reservados: 2
+Total a Pagar: R$300,00
+Check-in realizado? Sim
+Check-out realizado? Não
 ```
 
 ---
