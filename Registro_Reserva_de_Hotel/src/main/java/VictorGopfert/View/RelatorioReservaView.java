@@ -28,6 +28,8 @@ public class RelatorioReservaView {
             System.out.println("Tipo de Quarto: " + reserva.getQuarto().getTipo());
             System.out.println("Data de Entrada: " + reserva.getDataEntrada().format(formato));
             System.out.println("Data de Saída: " + reserva.getDataSaida().format(formato));
+            System.out.println("Total de Dias Reservados: " + reserva.getQuantidadeDias());
+            System.out.printf("Total a Pagar: R$%.2f%n", reserva.getTotalAPagar());
             System.out.println("Check-in realizado? " + (reserva.isCheckinRealizado() ? "Sim" : "Não"));
             System.out.println("Check-out realizado? " + (reserva.isCheckoutRealizado() ? "Sim" : "Não"));
 
@@ -39,6 +41,8 @@ public class RelatorioReservaView {
             writer.write("Tipo de Quarto: " + reserva.getQuarto().getTipo() + "\n");
             writer.write("Data de Entrada: " + reserva.getDataEntrada().format(formato) + "\n");
             writer.write("Data de Saída: " + reserva.getDataSaida().format(formato) + "\n");
+            writer.write("Total de Dias Reservados: " + reserva.getQuantidadeDias() + "\n");
+            writer.write(String.format("Total a Pagar: R$%.2f\n", reserva.getTotalAPagar()));
             writer.write("Check-in realizado? " + (reserva.isCheckinRealizado() ? "Sim" : "Não") + "\n");
             writer.write("Check-out realizado? " + (reserva.isCheckoutRealizado() ? "Sim" : "Não") + "\n");
         }
